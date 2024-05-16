@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-require('dotenv').config();
+
 
 const app = express();
 const port = process.env.PORT;
